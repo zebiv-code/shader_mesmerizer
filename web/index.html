@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shader Mesmerizer — heyman.ai</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="icon" href="favicon.ico">
+</head>
+<body>
+    <canvas id="canvas"></canvas>
+
+    <div id="controls" class="controls">
+        <h2>Shader Mesmerizer</h2>
+
+        <label for="timeScale">Time Scale</label>
+        <input type="range" id="timeScale" min="0" max="5" step="0.1" value="1">
+        <span class="value" id="timeScaleValue">1.0</span>
+
+        <label for="amplitude">Amplitude</label>
+        <input type="range" id="amplitude" min="0" max="2" step="0.05" value="0.5">
+        <span class="value" id="amplitudeValue">0.50</span>
+
+        <label for="frequency">Frequency</label>
+        <input type="range" id="frequency" min="0.1" max="10" step="0.1" value="3">
+        <span class="value" id="frequencyValue">3.0</span>
+
+        <label for="color1">Color 1</label>
+        <input type="color" id="color1" value="#0066ff">
+
+        <label for="color2">Color 2</label>
+        <input type="color" id="color2" value="#ff3300">
+
+        <button id="recordBtn">Record 10s Sprite Sheet</button>
+        <div id="recordStatus" class="record-status"></div>
+    </div>
+
+    <div class="attribution">
+        <a href="https://zebiv.com/shader-mesmerizer/" target="_blank" rel="noopener noreferrer">zebiv.com</a>
+    </div>
+
+    <script type="module" src="js/main.js"></script>
+</body>
+</html>
