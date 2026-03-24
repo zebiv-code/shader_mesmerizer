@@ -1,0 +1,15 @@
+{
+  "name": "shader-mesmerizer",
+  "version": "1.0.0",
+  "description": "Interactive shader visualizer with adjustable wave patterns, colors, and sprite sheet export.",
+  "author": "Bill Heyman <bill@heyman.ai> (https://billheyman.com)",
+  "license": "MIT",
+  "homepage": "https://zebiv.com/shader-mesmerizer/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zebiv-code/shader_mesmerizer/"
+  },
+  "scripts": {
+    "start": "npx serve web -l 3000"
+  }
+}
